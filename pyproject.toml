@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ddns-r53"
+version = "0.1.0"
+description = "Update AWS Route 53 with your current public ip at a specified time interval."
+authors = ["Wilber Alegria <wilber.alegria99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+httpx = "^0.26.0"
+boto3 = "^1.34.42"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
